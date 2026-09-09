@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Secrets / config
+.env
+
+# Runtime data (per-project media, transcripts, clips)
+data/
+
+# Copied model weights (large, machine-local)
+models/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
